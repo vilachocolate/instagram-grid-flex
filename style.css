@@ -6,3 +6,31 @@
 body{
     background-color: rgb(49, 185, 209);
 }
+.flexao{
+display: flex;
+height: 20vh;
+width: 100vw;
+}
+
+.centro{
+display: grid;
+min-height: 40vh;
+min-width: 40vw;
+
+}
+
+
+header{
+background-color: black;
+flex: 1;
+}
+main{
+    grid-area: main;
+    background-color: green;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+footer{
+    background-color: aqua;
+    flex: 1;
+}
